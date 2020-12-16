@@ -1,0 +1,53 @@
+# Basic
+title: V
+subtitle: 
+welcome_message: <a href="https://github.com/bryceyang" target="_blank">Welcome</a>
+description: V is my learning record.
+creator: <a href="http://onev.cat">@onevcat</a>
+
+url: "http://vno.onevcat.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: 
+
+# emoji support
+gems:
+        -jemoji
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+#nav:
+#    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: bryceyang
+    # duoshuo: 
+    
+# Social
+social:
+    weibo: poplar40
+    github: bryceyang
+    twitter: poplar50
+    gplus: 108486653827211515463
+    mail: kaieryang@hotmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host

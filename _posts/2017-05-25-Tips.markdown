@@ -1,0 +1,51 @@
+---
+layout: post
+title: Tips 
+data: 2017-05-25 00:41:00.000000000 +9:00
+category: Tips
+tag: Tips
+---
+
+### git push 免密码
+
+1.使用文件创建用户名和密码
+
+文件创建在用户主目录下：
+
+```shell
+touch .git-credentials
+vim .git-credentials
+https://{username}:{password}@github.com
+```
+2.添加git config内容
+
+`git config --glocal credential.helper store`
+
+执行此命令后，用户主目录下的.gitconfig文件会多了一项：`[credential]`
+
+`helper = store`
+
+重新git push就不需要用户名密码了。
+
+---
+
+### jupyter notebook 创建密码
+
+**产生jupyter notebook的配置文件：**
+
+```
+jupyter notebook --generate-config
+```
+**生成的配置文件位置为：~/.jupyter/jupyter\_notebook\_config.py**
+
+**打开jupyter，新建一个notebook，创建密码以及生成密码的sha1密钥，所需代码如下：**
+
+```
+from notebook.auth import passwd
+passwd()
+```
+输入一遍你想设置的密码，然后再输入一遍确认，记录下生成的sha1密钥值。形式如：‘sha1:xxxxxxx'
+
+然后将这段值按如下格式粘贴到配置文件中对应的`c.NotebookApp.password = u'sha1:xxxx'`位置上，如果你不想寻找文件中的这个位置，你也可以在文件末尾新建一个。
+
+**重启jupyter，密码生效。**
