@@ -1,53 +1,23 @@
-# Basic
-title: V
-subtitle: 
-welcome_message: <a href="https://github.com/bryceyang" target="_blank">Welcome</a>
-description: V is my learning record.
-creator: <a href="http://onev.cat">@onevcat</a>
+# Site Build Settings
 
-url: "http://vno.onevcat.com"
+# jekyll-paginate configuration
+paginate:            5
 
-permalink: /:year/:month/:title/
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-# Format
-highlighter: rouge
+sass:
+  sass_dir: assets/css
+  style: :nested
 
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: 
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "Millennial"
+description:	       "a Jekyll theme for running a blog or publication"
+author:              "Paul Le"
 
-# emoji support
-gems:
-        -jemoji
-
-# The blog button should not be removed.
-blog_button:
-    title: Blog
-    description: Visit blog
-
-# Navigation buttons in the front page.
-#nav:
-#    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
-
-# Pagination
-gems: [jekyll-paginate]
-paginate: 10
-paginate_path: "page/:num/"
-
-# Comment
-comment:
-    disqus: bryceyang
-    # duoshuo: 
-    
-# Social
-social:
-    weibo: poplar40
-    github: bryceyang
-    twitter: poplar50
-    gplus: 108486653827211515463
-    mail: kaieryang@hotmail.com
-
-# Google Analytics
-ga:
-    # id: your_ga_id
-    # host: your_host
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
