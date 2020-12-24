@@ -1,10 +1,13 @@
 .site-header {
   min-height: 56px;
-  width: $container-width;
+  width: 100%;
+  font-weight: bold;
+  // width: $container-width;
   position: fixed;
   background-color: white;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
+  top: 0;
 }
 @media (max-width: $container-width) {
   .site-header {
@@ -21,11 +24,11 @@
 }
 .site-title {
   font-size: 26px;
-  font-weight: 400;
+  // font-weight: 400;
   line-height: 56px;
   margin-bottom: 0;
   margin-top: 0;
-  padding-left: 10px;
+  padding-left: 20px;
   float: left;
 }
 .menu-list {
@@ -33,7 +36,7 @@
   float: right;
 }
 .menu-link {
-  padding: 5px 10px;
+  padding: 5px 20px;
 }
 
 /*
@@ -67,6 +70,7 @@
   .dropdown {
       position: relative;
       display: inline-block;
+      float: right;
   }
   .dropdown-content {
       display: none;
@@ -75,6 +79,7 @@
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
+      right: 0;
   }
   .dropdown-content a {
       color: black;

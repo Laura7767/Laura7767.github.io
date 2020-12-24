@@ -1,0 +1,26 @@
+---
+layout: page
+title: 首页
+description: '欢迎来到Luo的博客'
+image: arctic-1.jpg
+---
+
+{% for post in site.categories.home %}
+<div class="body-wrap">
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts">
+      <h2><span>{{ post.title }}</span></h2>
+      <div class="time">
+        <span>
+          {{ site.data.settings.post_date_prefix }}
+          {{ post.date | date: "%Y" }}-{{post.date | date: "%m"}}-{{post.date | date: "%d"}}
+        </span>
+      </div>
+      <div class="dis">
+        {{post.discription}}
+      </div>
+      <a class="scan button button--wayra button--border-thin button--round-s" href="{{ site.github.url }}{{ post.url }}">查看>></a>
+    </div>
+  </a>
+</div>
+{% endfor %}

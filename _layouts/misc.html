@@ -2,13 +2,22 @@
 layout: default
 ---
 
-<div class="page-title misc-content">
+<section class="hero" {% if page.image %}style="background:url({{ site.github.url }}/assets/img/{{ page.image }}) center center"{% endif %}>
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1>{{page.title}}</h1><br/>
+			<p class="subtext">{{page.description}}</p>
+		</div>
+	</div>
+</section>
+
+<!-- <div class="page-title misc-content">
   <h1>
     {{ page.title }}
   </h1>
 
-<article>
+<article> -->
   {{ content }}
-</article>
+<!-- </article>
 
-</div>
+</div> -->

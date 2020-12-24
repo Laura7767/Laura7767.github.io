@@ -1,35 +1,35 @@
 # Change 'comments' to true for Disqus comments
 disqus:
   comments: false
-  disqus_shortname: 'millennial-3'
+  disqus_shortname: 'Luo’s Blog'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Interesting Facts', folder: 'pages', file: 'facts.html'}
-- {name: 'Learning Resources', folder: 'pages', file: 'resources.html'}
-- {name: 'Sample Posts', folder: 'pages', file: 'sample-posts.html'}
-- {name: 'Documentation', folder: 'pages', file: 'documentation.html'}
-- {name: 'About', folder: 'pages', file: 'about.html'}
-- {name: 'Contact', folder: 'pages', file: 'contact.html'}
+- {name: '首页', folder: 'pages', file: 'home.html'}
+- {name: '学习笔记', folder: 'pages', file: 'notes.html'}
+# - {name: 'Sample Posts', folder: 'pages', file: 'sample-posts.html'}
+- {name: '疑难问题', folder: 'pages', file: 'question.html'}
+- {name: '关于Luo', folder: 'pages', file: 'about.html'}
+# - {name: 'Contact', folder: 'pages', file: 'contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'facebook', link: 'https://www.facebook.com/Le.Paul.94'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
-- {icon: 'rss-square', link: 'feed.xml'}
+# - {icon: 'twitter', link: 'https://twitter.com/paululele'}
+# - {icon: 'facebook', link: 'https://www.facebook.com/Le.Paul.94'}
+# - {icon: 'instagram', link: 'https://instagram.com/paululele'}
+# - {icon: 'envelope', link: 'mailto:l.nguyen.paul@gmail.com'}
+# - {icon: 'rss-square', link: 'feed.xml'}
 # - {icon: 'rss-square', link: 'rss-feed.xml'}
 
 # Customize site text
 pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'
+  next_page: 'preview page'
+  previous_page: 'next page'
 
 sharing_button_prompt: 'Feel free to share!'
 
 related_posts: 'You may also enjoy...'
 
-post_date_prefix: 'Written on'
+post_date_prefix: '发表于'
