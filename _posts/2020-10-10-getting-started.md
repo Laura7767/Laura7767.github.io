@@ -2,7 +2,7 @@
 layout: post
 title: "开始使用"
 author: "Luo"
-categories: [question,home]
+categories: [home,question]
 tags: [home,question,notes]
 discription: '使用jekyll theme的手册'
 image: city-2.jpg

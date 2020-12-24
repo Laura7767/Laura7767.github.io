@@ -9,7 +9,7 @@ layout: default
 
   <span class="post-date">
     {{ site.data.settings.post_date_prefix }}
-    {% assign d = page.date | date: "%-d"  %}
+    <!-- {% assign d = page.date | date: "%-d"  %}
     {{ page.date | date: "%B" }}
     {% case d %}
       {% when '1' or '21' or '31' %}{{ d }}st
@@ -22,7 +22,9 @@ layout: default
       {{ page.author }}
     {% else %}
       {{ site.author }}
-    {% endif %}
+    {% endif %} -->
+
+    {{ page.date | date: "%Y" }}-{{page.date | date: "%m"}}-{{page.date | date: "%d"}}
   </span>
 
   <!-- {% if page.image %}
