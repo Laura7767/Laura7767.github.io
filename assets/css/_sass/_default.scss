@@ -83,6 +83,7 @@ a.scan{
   right: 0;
   margin-top: -10px;
   font-size: 14px;
+  color: #3f51b5;
 }
 @media (max-width: $container-width) {
   .container {
@@ -143,4 +144,12 @@ a.scan{
   .hero{
     width: 95vw;
   }
+}
+
+// plants
+.plants-wrap{
+  position: fixed;
+  bottom: 0;
+  z-index: -99;
+  // width: 100%;
 }

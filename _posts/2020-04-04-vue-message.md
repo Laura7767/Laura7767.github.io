@@ -3,7 +3,7 @@ layout: post
 title: "element-ui组件中的message显示问题"
 author: "Luo"
 categories: [home,question]
-tags: [home,question,notes]
+tags: [home,github,notes]
 discription: '解决使用element-ui组件中的多个message显示无限下排问题'
 image: cuba-4.jpg
 ---

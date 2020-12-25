@@ -60,23 +60,34 @@
 
 .pagination {
   text-align: center;
+  padding-top: 20px;
 }
 .pagination a {
   text-decoration: none;
 }
 .pagination-button {
+  width: 110px;
+  position: relative;
+  overflow: hidden;
   color: #999;
-  border: 1px solid #e0e0e0;
-  padding: 15px 45px;
+  border: 1px solid #ddd;
+  background-color: #f5f6f7;
+  padding: 10px 35px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: inline-block;
   font-size: 16px;
-  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  // font-weight: bold;
 }
 .pagination-active {
-  color: black;
+  color: #3f51b5;
+  border: 1px solid #3f51b5;
+  background-color: transparent;
 }
-.pagination-active:hover {
-  background-color: #e0e0e0;
-}
+// .pagination-active:hover {
+//   background-color: #e0e0e0;
+// }

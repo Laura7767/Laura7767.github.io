@@ -5,7 +5,7 @@ author: "Luo"
 categories: [home,question]
 tags: [home,question,notes]
 discription: 'vue用文件流预览文件会被浏览器拦截弹窗'
-image: cuba-1.jpg
+image: cuba-3.jpg
 ---
 
 #### 比较完整的文件预览兼容性问题解决

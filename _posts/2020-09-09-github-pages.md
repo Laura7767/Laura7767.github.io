@@ -3,7 +3,7 @@ layout: post
 title: "github pages静态网页创建"
 author: "Luo"
 categories: [home,notes]
-tags: [home,question,notes]
+tags: [home,message,notes]
 discription: '注册并使用github创建静态页面流程'
 image: arctic-1.jpg
 ---

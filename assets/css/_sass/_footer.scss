@@ -5,6 +5,8 @@
   min-height: 56px;
   line-height: 45px;
   width: 100%;
+  position: relative;
+  z-index: -100;
   // width: $container-width;
 }
 .footer a {
