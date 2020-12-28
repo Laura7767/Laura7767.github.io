@@ -1,0 +1,10 @@
+/*可以在这里添加你自己的css*/
+.edui-default .edui-toolbar .edui-combox-body .edui-button-body{
+  height: 20px;
+}
+mark[plugins=postil]{
+  background-color: #ff0;
+}
+mark[plugins=hidepostil]{
+  background-color: transparent;
+}
