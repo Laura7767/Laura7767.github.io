@@ -9,7 +9,7 @@ image: nature-1.jpg
 ---
 
 
-## 9. vue分片上传
+## vue分片上传
 
 实现分片上传、秒传及断点续传的功能，使用vue-simple-uploader插件实现该功能
 
